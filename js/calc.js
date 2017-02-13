@@ -73,34 +73,12 @@ alert(c);
 
 
 var totalgallons = function() {
-  //alert("this is totalgallons function.");
   var gallons = prompt("How many gallons do we have?");
   var liter = parseFloat(gallons) * 3.785411784;
   alert("you have total " + liter);
-//  return liter;
+  return liter;
 }
-//totalgallons(); //call method//
+totalgallons(); //call method//
 
 var result = totalgallons();
 alert(result + 6);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* will convert gallons to liters*/
-/* formula =*/
