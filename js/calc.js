@@ -15,13 +15,12 @@ var divide = function(number1, number2) {
   return number1 / number2;
 };
 
-alert(add(number1, number2));
-
 // Everything below this line is user interface, or front-end, logic:
 
 $(document).ready(function(){
-// Not using the following because we dont want popup, but a form.
-  //  var number1 = parseInt(prompt("Enter a number:"));
-  //  var number2 = parseInt(prompt("Enter another number:"));
-
+  $("form#add").submit(function(){
+    var number1 = parseInt($("#add1").val());
+    var number2 = parseInt($("#add2").val());
+    alert(add(number1, number2));
+  });
 });
