@@ -18,6 +18,7 @@ var divide = function(number1, number2) {
 // Everything below this line is user interface, or front-end, logic:
 
 $(document).ready(function(){
+  $("#add1").focus();
   $("form#add").submit(function(){
     event.preventDefault();
     var number1 = parseInt($("#add1").val());
