@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/calc.css">
-    <title>JavaScript</title>
+    <title>Calculator</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/calc.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <main>
-      <button onclick="BMI()" value="BMI">BMI</button>
-      <button onclick="multiply()" value="Multiply">Multiply</button>
-      <button onclick="divide()" value="Divide">Divide</button>
-      <button onclick="add()" value="Addition">Addition</button>
-      <button onclick="subtract()" value="Subtraction">Subtraction</button>
-    </main>
-    <script type="text/javascript" src="js/calc.js" ></script>
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id="add">
+        <div class="form-group">
+          <label for="add1">1st number:</label>
+          <input id="add1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="add2">2nd number:</label>
+          <input id="add2" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Add!</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="js/madLib.js"></script>
   </body>
 </html>

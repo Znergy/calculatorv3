@@ -2,7 +2,7 @@
 + -Javascript Calculator
 +
 ## Authors
-+ -Keith Stedman
++ -Ryan Jones
 + -Grace Stuart
 +
 ## Description
@@ -15,4 +15,4 @@
 + -Free to use. GPL
 +
 ## Date
-+ - 2/12/2017
++ - 2/14/2017
